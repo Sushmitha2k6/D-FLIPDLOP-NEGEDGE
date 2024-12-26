@@ -1,4 +1,8 @@
-# D-FLIPDLOP-NEGEDGE
+EXP-8 D-FLIPDLOP-NEGEDGE
+
+NAME:SUHSMITHA S
+
+REF NO:24008099
 
 **AIM:**
 
@@ -8,9 +12,9 @@ To implement  D flipflop using verilog and validating their functionality using 
 
 Quartus prime
 
-**THEORY**
+**THEORY:**
 
-**D Flip-Flop**
+**D FLIPFLOP**
 
 D flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, D latch operates with enable signal. That means, the output of D flip-flop is insensitive to the changes in the input, D except for active transition of the clock signal. The circuit diagram of D flip-flop is shown in the following figure.
 
@@ -26,19 +30,42 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
-**Procedure**
+**PROCEDURE:**
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
 
-**PROGRAM**
+2.Compile and run the program.
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+3.Generate the RTL schematic and save the logic diagram.
 
-**RTL LOGIC FOR FLIPFLOPS**
+4.Create nodes for inputs and outputs to generate the timing diagram.
 
-
-**TIMING DIGRAMS FOR FLIP FLOPS**
+5.For different input combinations generate the timing diagram.
 
 
-**RESULTS**
+
+
+**PROGRAM:**
+
+
+![8](https://github.com/user-attachments/assets/f03b13d0-0462-4bc7-bcb5-e103f3ed52bf)
+
+
+
+**RTL LOGIC FOR FLIPFLOPS:**
+
+
+
+![Screenshot 2024-12-26 150723](https://github.com/user-attachments/assets/3a4a1f90-770d-43b4-8e69-5f98bea05d49)
+
+
+
+**TIMING DIGRAMS FOR FLIP FLOPS:**
+
+
+![Screenshot 2024-12-26 150738](https://github.com/user-attachments/assets/2eb18a8a-c8ee-43e5-9006-cf85347c0e7b)
+
+
+**RESULT:**
+
+Sucessfully implemented Encoder 8 To 3 in Dataflow Modelling using verilog and validated their functionality using their functional table.
